@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width">
+		<title>밥주기</title>
+		<link rel="stylesheet" href="style.css" type="text/css" />
+		<style>
+			.nav {
+				height: 70px;
+				border-bottom: 1px solid black;
+				display: flex;
+				align-items: center;
+			}
+
+			.nav-right-items {
+				display: flex;
+				margin-left: auto;
+			}
+
+			.nav-item {
+				margin-left: 10px;
+			}
+
+			.company-name {
+				margin-left: 20px;
+			}
+
+			.title {
+				text-align: center;
+				font-size: 3.5rem;
+				font-weight: bold;
+			}
+
+			.subtitle {
+				text-align: center;
+				font-size: 1.25rem;
+				font-weight: 300;
+			}
+
+			.main {
+				width: 1000px;
+				margin: 0 auto;
+				margin-top: 60px;
+			}
+
+			.prices {
+				display: flex;
+			}
+
+			.price-item {
+				width: 300px;
+				height: 350px;
+				border: 1px solid black;
+				margin: 20px;
+				border-radius: 4px;
+				text-align: center;
+			}
+
+			.price-item-title {
+				font-size: 1.5rem;
+				background: rgba(0, 0, 0, .03);
+				text-align: center;
+				height: 53px;
+				line-height: 53px;
+				border-bottom: 1px solid black;
+			}
+
+			.price-item-price {
+				font-size: 2.5rem;
+				font-weight: bold;
+				padding: 20px;
+			}
+
+			.price-item-button {
+				padding: .5rem 1rem;
+				font-size: 1.25rem;
+				line-height: 1.5;
+				border-radius: .3rem;
+				color: #007bff;
+				background-color: transparent;
+				background-image: none;
+				border-color: #007bff;
+				margin-top: 30px;
+			}
+
+			.price-item-button--active {
+				background-color: #007bff;
+				color: white;
+			}
+
+			.price-item-month {
+				font-size: 16px;
+				color: gray;
+			}
+
+		</style>
+	</head>
+	<body>
+		<div class="nav">
+			<div class="company-name">
+				메인화면으로
+			</div>
+			<div class="nav-right-items">
+				<div class="nav-item">| 밥주기 |</div>
+				<div class="nav-item">물주기 |</div>
+				<div class="nav-item">돈주기 |</div>
+				<div class="nav-item">관심주기 |</div>
+			</div>
+		</div>
+		<div class="main">
+			<div class="title">
+				Pricing
+			</div>
+			<div class="subtitle">
+				코로나19 상황과 심각한 가뭄이 겹치면서 형준이의 생명이 심각하게 위협받고 있어 전 세계의 도움이 절실합니다.
+				형준이에게 돈을 주세요 지금 이 순간에도 고통받고 있는 형준이에게 소중한 한 끼를 제공하고 생명의 불씨를 살릴 수 있도록 이번 모금에 많은 참여를 부탁드립니다.
+				그리고 그것은 세상을 바꿀 수 있습니다.
+			</div>
+			<div class="prices">
+				<div class="price-item">
+					<div class="price-item-title">
+						무료
+					</div>
+					<div class="price-item-price">
+						0원 / day
+					</div>
+					<div class="price-item-detail">
+						당신에겐 양심도없습니까?
+					</div>
+					<div class="price-item-detail">
+						불쌍한 형준이에겐
+					</div>
+					<div class="price-item-detail">
+						for free 라는 것은
+					</div>
+					<div class="price-item-detail">
+						존재하지 않습니다.
+					</div>
+					<button class="price-item-button">
+						NO Click
+					</button>
+				</div>
+
+				<div class="price-item">
+					<div class="price-item-title">
+						일반후원
+					</div>
+					<div class="price-item-price">
+						5000원 / mo
+					</div>
+					<div class="price-item-detail">
+						후원혜택
+					</div>
+					<div class="price-item-detail">
+						밥같이먹어줌?
+					</div>
+					<div class="price-item-detail">
+						같이놀아줌?
+					</div>
+					<div class="price-item-detail">
+						말동무해줌?
+					</div>
+					<button class="price-item-button">
+						눌러 그냥!
+					</button>
+				</div>
+
+				<div class="price-item">
+					<div class="price-item-title">
+						고급후원
+					</div>
+					<div class="price-item-price">
+						3만원 / mo
+					</div>
+					<div class="price-item-detail">
+						감사합니다★
+					</div>
+					<div class="price-item-detail">
+						감사합니다☆
+					</div>
+					<div class="price-item-detail">
+						감사합니다★
+					</div>
+					<div class="price-item-detail">
+						감사합니다☆
+					</div>
+					<button class="price-item-button">
+					  왕감사
+					</button>
+				</div>
+			</div>
+		</div>
+		<script src="script.js"></script>
+	</body>
+</html>
